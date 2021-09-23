@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+html,body{
+    height: 100%;
+    background-color: black !important;
+}
+#holder{
+    min-height: 100%;
+    position:relative;
+}
+/*
+#body{
+    padding-bottom: 100px;    /* height of footer 
+}
+*/
+
+
+/* HEADER */
+
+.header{
+    background-color: 	hsla(127, 36%, 29%) ;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    width: 100%;
+    position: relative;
+    height: 10vh;
+    background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
+}
+.header h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+
+}
+  
+.header img {
+    display: inline-flex;
+    margin: auto;
+    width: auto;
+    object-fit: cover;
+    height: -webkit-fill-available;
+}
+
+/* NAVBAR */
+.hJXypj{
+    background-color:#003b0f !important;
+    color: #b9b33c;
+
+}
+.barMenu{
+    display: none;
+    color: #fff !important;
+    
+}
+.sc-iqAclL .fzRRyM{
+    flex: 1  !important;
+
+}
+.sc-pNWdM .dgGMXh{
+    height: 6vh;
+}
+
+
+.nav-link, .nav-item .dropdown{
+    color: #fff !important;
+    height: 100%;
+}
+.nav-link > a, .nav-link > a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover, .nav-item .dropdown :hover {
+    /*-webkit-transition: border-bottom 500ms linear;
+    -ms-transition: border-bottom 500ms linear;
+    transition: border-bottom 500ms linear;*/
+    border-bottom: 4px solid #f4df36;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header{
+        justify-content: space-between;
+    }
+    .barMenu{
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    /*transform: translate(100%,90%);*/
+    /*font-size: 1.8rem;*/
+    cursor: pointer;
+    font-style: normal;
+    }
+    .Ddown{
+        display: contents;
+    }
+    .Ddown>ul{
+        width: 75vw;
+        position: absolute;
+        list-style-type: none;
+        background-color: black;
+        left: 0;
+        padding-left: 0px;
+        padding-inline-start: 0px;
+    }
+    .Ddown>ul>li{
+        width: 100%;
+    }
+    .Ddown>ul>li>a{
+        font-size: 7vw !important;
+        border-top: solid white 1px;
+        border-bottom: solid white 1px;
+        border-right: solid white 1px;
+    }
+}
+
+
+/* Tabla posiciones */
+.tablaPosiciones{
+    color: white !important;
+    background-color: black !important;
+    padding-left: 0px;
+    border: black;
+}
+.MuiDataGrid-root{
+    border: none !important;
+}
+.MuiSvgIcon-root, .MuiSvgIcon-fontSizeSmall{
+    color: white !important;
+}
+
+
+/* EQUIPOS */
+
+.col > img {
+    height: 150px;
+    width: 150px;
+    padding-top: 0px;
+    margin: 10px;
+    align-items: center;
+}
+.col > p {
+    
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+
+/* Media queries 
+
+@media only screen and (min-width: ){}*/
+

@@ -1,0 +1,10 @@
+#306636
+#f4df36
+
+secundarios
+oscuro: #808d39
+claro: #b9b33c
+
+DB ROUTE
+C:\Program Files\MongoDB\Server\5.0\data\db
+
